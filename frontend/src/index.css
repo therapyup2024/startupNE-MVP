@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --primary: #7c3aed;
+  --primary-light: #ede9fe;
+  --gray: #f3f4f6;
+  --gray-dark: #6b7280;
+  --white: #fff;
+  --shadow: 0 4px 24px rgba(60, 60, 120, 0.08);
+  --branco-default: #fff;
+  --box-shadow-roxo: rgba(44, 0, 128, 0.15);
+  --btn-color-roxo: #5a23c8;
+  --btn-hover-roxo: #2b1e6b;
+  --link-login: #b36be2;
+  --link-login-hover: #5a23c8;
+  --link-home-list-hover: #b150a4;
+  --primary-color: #5a23c8;
+  --second-color: #1e98b6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', Arial, sans-serif;
+  background-color: var(--gray);
+  color: #222;
+}
